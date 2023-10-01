@@ -2,10 +2,10 @@
 
 set -e
 
-cd ..
+pushd ..
 
 source_dir="./v8/"
-exclude_file="./v8-exclude.txt"
+exclude_file="./sync-v8/v8-exclude.txt"
 
 do_rsync() {
 	destination_dir=$1
@@ -47,3 +47,5 @@ do_rsync() {
 }
 
 do_rsync "./v8-standalone"
+
+popd
