@@ -20,6 +20,7 @@ __pycache__
 
 /buildtools/reclient
 /buildtools/reclient/reclient_cfgs
+/buildtools/reclient_cfgs
 /buildtools/third_party/libc++/trunk
 /buildtools/third_party/libc++abi/trunk
 /buildtools/mac/gn
